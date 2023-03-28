@@ -13,7 +13,7 @@
       :show="showModal"
       @close="showModal = false">
       <template v-slot:header>
-        아무것도 안넣으면 나오는 모달
+        <h3>아무것도 입력안했다</h3>
         <i
           class="fas fa-times closeModalBtn"
           @click="showModal = false"></i>
