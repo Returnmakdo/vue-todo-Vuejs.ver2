@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     addOneItem(todoItem) {
-      let obj = {
+      const obj = {
         completed: false,
         item: todoItem,
       };
@@ -55,10 +55,10 @@ export default {
     }
   },
   components: {
-    TodoHeader: TodoHeader,
-    TodoInput: TodoInput,
-    TodoList: TodoList,
-    TodoFooter: TodoFooter,
+    TodoHeader,
+    TodoInput,
+    TodoList,
+    TodoFooter,
   },
 };
 </script>
