@@ -2,7 +2,7 @@
   <div id="app">
     <TodoHeader></TodoHeader>
     <TodoInput></TodoInput>
-    <TodoList v-bind:propsdata="todoItems"></TodoList>
+    <TodoList></TodoList>
     <TodoFooter></TodoFooter>
   </div>
 </template>
@@ -14,11 +14,6 @@ import TodoList from './components/TodoList.vue';
 import TodoFooter from './components/TodoFooter.vue';
 
 export default {
-  data() {
-    return {
-      todoItems: [],
-    };
-  },
   components: {
     TodoHeader,
     TodoInput,
