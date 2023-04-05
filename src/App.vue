@@ -4,6 +4,7 @@
     <TodoInput></TodoInput>
     <TodoList></TodoList>
     <TodoFooter></TodoFooter>
+    test
   </div>
 </template>
 
